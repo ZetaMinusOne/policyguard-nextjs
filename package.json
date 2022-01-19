@@ -1,0 +1,39 @@
+{
+  "name": "@policyguard/nextjs",
+  "version": "0.1.3",
+  "description": "NextJS Middleware for PolicyGuard",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  },
+  "peerDependencies": {
+    "next": "^12.0.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZetaMinusOne/policyguard-nextjs.git"
+  },
+  "keywords": [
+    "policyguard",
+    "nextjs",
+    "middleware",
+    "content",
+    "security",
+    "policy",
+    "csp"
+  ],
+  "author": "ZetaMinusOne LLC",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ZetaMinusOne/policyguard-nextjs/issues"
+  },
+  "homepage": "https://github.com/ZetaMinusOne/policyguard-nextjs#readme",
+  "dependencies": {}
+}
